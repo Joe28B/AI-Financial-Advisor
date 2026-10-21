@@ -13,6 +13,14 @@ npm start
 
 Open with an Expo Go version compatible with SDK 55, or use an iOS/Android development build. For a quick browser demo, run `npm run web`. Expo SDK 55 uses React Native 0.83 and React 19.2; see the [Expo SDK reference](https://docs.expo.dev/versions/v55.0.0/).
 
+### Static HTML demo (no Expo)
+
+If you just want a single HTML file you can open in a browser (for showcasing the idea), open:
+
+- `dist/demo.html`
+
+It runs fully client-side; transactions are kept in memory and reset on reload.
+
 ## Short demonstration
 
 1. Tap `Received 15000 salary`, then **Add transaction**.
